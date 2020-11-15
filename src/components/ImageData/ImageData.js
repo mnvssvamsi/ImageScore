@@ -2,7 +2,6 @@ import React, { Fragment, useState } from 'react'
 import './ImageData.css'
 import { storage } from '../../firebase'
 import axios from 'axios'
-import ImageScore from '../ImageScore/ImageScore'
 import NavBar  from '../NavBar/NavBar'
 const ImageData = () => {
 
