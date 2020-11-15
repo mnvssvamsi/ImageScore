@@ -1,0 +1,33 @@
+.Images{
+    margin: 15px;
+}
+
+.ImageElement{
+    max-width: 950px;
+}
+.filtering  {
+    background-color: darkcyan;
+    color: white;
+    max-width: 150px;
+    text-align: center;
+    padding: 2px;
+    border: none;
+    outline: none;
+  }
+  .ScoreContainer{
+      margin: 10px 5px;
+  }
+@media (max-width:450px){
+    .ImageElement{
+        max-width: 350px;
+    }
+    .filtering  {
+        background-color: darkcyan;
+        color: white;
+        max-width: 100px;
+        text-align: center;
+        padding: 2px;
+        border: none;
+        outline: none;
+      }
+}

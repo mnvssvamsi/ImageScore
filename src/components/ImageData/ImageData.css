@@ -1,0 +1,67 @@
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.text-label{
+  margin: 2px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+ .input-file {
+    /* position: absolute;
+    top: 120px; */
+    font-size: 0.9rem;
+    color: darkcyan;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    margin: 5px;
+  }
+   .upload-file{
+    /* position: absolute;
+    top: 150px; */
+    font-size: 0.9rem;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    outline-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    width: 100px;
+    margin: 5px;
+  }
+  .image-submit{
+    /* position: absolute;
+    top: 60%;
+    right: 5%; */
+    text-transform: uppercase;
+    border: none;
+    padding: 5px 15px;
+    font-size: 1.1rem;
+    background-color: darkcyan;
+    color: white;
+    width: 100px;
+    margin: 5px;
+    outline-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .image-container{
+    margin: 25px 10px;
+  }
+ .upload-image{
+    max-width: 300px;
+    max-height: 400px;
+  }
+  @media (min-width:1000px){
+    .image-container{
+      width: 100%;
+      margin:25px 15px 15px 15px;
+    }
+    .upload-image{
+      max-width: 500px;
+      max-height: 500px;
+    }
+  }

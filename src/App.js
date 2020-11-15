@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import React from 'react'
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-
-function App() {
+import {Route} from 'react-router-dom'
+import ImageData from './components/ImageData/ImageData'
+import ImageScore from './components/ImageScore/ImageScore';
+ const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+      <Route path='/' exact component={ImageData} />
+      <Route path='/score' component={ImageScore} />
+      </BrowserRouter>
     </div>
-  );
+  )
 }
 
 export default App;

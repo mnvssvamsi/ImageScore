@@ -1,0 +1,39 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    background-color: darkcyan;
+    height: 10vh;
+    margin: 0 ;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.NavigationItem{
+    margin: 0px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+}
+.NavigationItem a{
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active
+{
+    color: lightblue;
+}
+
+@media (min-width:1024px){
+    .NavigationItem{
+        padding-left: 250px;
+    }
+}
