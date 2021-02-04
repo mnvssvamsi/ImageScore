@@ -7,6 +7,7 @@ const mydetails = () => {
             with prac2 file
             <p>changing prac2 again</p>
             <p>changing prac2 3rd time</p>
+            <p>changing prac2 4rth time</p>
         </div>
     )
 }
