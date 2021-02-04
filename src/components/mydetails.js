@@ -4,7 +4,7 @@ const mydetails = () => {
     return (
         <div style={{background:white}}>
             vamsi here
-            changing style from prac1
+            changing style from prac1 in mydetails
         </div>
     )
 }
