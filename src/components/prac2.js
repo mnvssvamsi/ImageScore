@@ -8,6 +8,7 @@ const mydetails = () => {
             <p>changing prac2 again</p>
             <p>changing prac2 3rd time</p>
             <p>changing prac2 4rth time</p>
+            <p>prac2 5th time</p>
         </div>
     )
 }
