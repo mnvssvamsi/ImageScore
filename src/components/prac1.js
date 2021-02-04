@@ -7,7 +7,7 @@ const prac1 = () => {
            <p className="prac1">changing first time</p> 
            <p>changing prac1 second time</p>
            <p>prac1 3rd time</p>
-           <p>prac1 4rth time</p>
+           <p>prac1 4rth time and 6th time</p>
         </div>
     )
 }
