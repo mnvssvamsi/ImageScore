@@ -5,6 +5,7 @@ const prac1 = () => {
         <div>
             originalprac file
            <p className="prac1">changing first time</p> 
+           <p className="changing-from-prac2">changing first time</p> 
            <p>changing prac1 second time</p>
            <p>prac1 3rd time</p>
         </div>
