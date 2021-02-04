@@ -2,8 +2,9 @@ import React from 'react'
 
 const mydetails = () => {
     return (
-        <div>
+        <div style={{background:white}}>
             vamsi here
+            changing style from prac1
         </div>
     )
 }
