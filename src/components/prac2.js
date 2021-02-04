@@ -2,9 +2,9 @@ import React from 'react'
 
 const mydetails = () => {
     return (
-        <div style={{background:white}}>
-            vamsi here
-            changing style from prac1 in mydetails
+        <div>
+            vamsi here 
+            with prac2 file
         </div>
     )
 }
