@@ -2,7 +2,7 @@ import React from 'react'
 
 const prac1 = () => {
     return (
-        <div className="prac1-styles-from2">
+        <div className="prac1">
             originalprac file
            <p className="prac1">changing first time</p> 
            <p>changing prac1 second time</p>
