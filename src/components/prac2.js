@@ -2,7 +2,7 @@ import React from 'react'
 
 const mydetails = () => {
     return (
-        <div>
+        <div className="prac2">
             vamsi here 
             with prac2 file
             <p>changing prac2 again</p>
