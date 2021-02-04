@@ -5,6 +5,7 @@ const mydetails = () => {
         <div>
             vamsi here 
             with prac2 file
+            <p>changing prac2 again</p>
         </div>
     )
 }
